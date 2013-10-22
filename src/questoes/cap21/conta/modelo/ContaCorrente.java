@@ -25,13 +25,8 @@ public class ContaCorrente extends Conta{
     }
 
     @Override
-    public boolean sacar(double valor) {
-        if(valor <= super.getSaldo()){
-            super.setSaldo(super.getSaldo() - valor);
-            return true;
-        }
-        
-        if(valor <= credito){
+    public boolean sacar(double valor) {      
+        if(valor <= ( credito + super.getSaldo())){
             super.setSaldo(super.getSaldo() - valor);
             return true;
         }
