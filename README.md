@@ -5,8 +5,8 @@ com Java e Orientação a Objetos</a></i>
 
 <b>Atividade I</b> - CAPÍTULO 4. TESTES AUTOMATIZADOS {Questões 3 e 4}
 <br/><b>pacote: questoes.cap4</b>
-<br/>
-<b>Atividade II</b> - CAPÍTULO 21. Herança {Questões 3 e 4}
+<br/><br/>
+<b>Atividade II</b> - CAPÍTULO 21. Herança {Questão 3}
 <br/><b>pacote: questoes.cap21</b>
 
 FGA-UnB <<http://fga.unb.br/>>
