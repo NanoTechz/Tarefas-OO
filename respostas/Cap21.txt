@@ -1,0 +1,34 @@
+1. Retornando à hierarquia de classes apresentada na figura 21.2, pense em quais métodos e atributos deve-
+riam estar presentes nas classes superiores da hierarquia e quais deveriam estar nas partes inferiores da
+hierarquia.
+
+	Na classe SerVivo teriam atributos e métodos comuns a todos os seres, como:
+		-periodoReprodutivo:Periodo
+		+nascer();
+		+morrer();
+
+	Nas subclasses teriam atributos e métodos exclusivos a classe, ex:
+	Animal
+		+ comer();
+		+ reproduzir();
+
+
+
+2. Figuras geométricas são um bom exemplo para se construir um hierarquia de classes. Considere as figuras
+quadrado, retângulo, triângulo (retângulo, acutângulo e obtusângulo) e losango. Construa duas diferentes
+hierarquias para estas classes, uma com dois níveis e outra com três níveis, colocando os atributos que
+devem ser considerados comuns em cada nível da hierarquia. Compare estas duas hierarquias, discutindo
+suas vantagens e desvantagens.
+
+	Imagem 01. http://imageshack.us/photo/my-images/853/lz23.jpg
+
+	Imagem 02. http://img837.imageshack.us/img837/4148/ucfs.jpg
+
+	A modelagem 1 é mais prática o que facilita na implementação, enquanto a segunda e mais "legível", além da manuntenção do código ser mais fácil. 
+
+3. Desenvolva um conjunto de classes para controlar o saldo, depósitos e retiradas de contas bancárias bem
+como os dados do titular. Escreva inicialmente um diagrama modelando tanto contas corrente quanto
+contas poupança e aplicações em fundo. Em seguida, implemente estas classes em Java.
+
+	https://github.com/NanoTechz/Tarefas-OO/tree/master/src/questoes/cap21
+	imagem 03. http://img843.imageshack.us/img843/9645/etzz.jpg
